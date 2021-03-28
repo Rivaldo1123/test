@@ -1,5 +1,5 @@
 {
-    "name": "Chat-App-With-PHP-and-Node.JS",
+    "name": "test",
     "version": "1.0.0",
     "description": "Files of chat app with PHP and Node.JS tutorial at Hyvor Developer",
     "main": "js-index.js",
@@ -8,7 +8,6 @@
     },
     "devDependencies": {},
     "scripts": {
-        "test": "echo \"Error: no test specified\" && exit 1",
         "start": "node node/server.js"
     },
     "repository": {
