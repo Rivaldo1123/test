@@ -27,8 +27,9 @@ function sendMessage() {
 
 // web sockets
 window.WebSocket = window.WebSocket || window.MozWebSocket;
-
-var connection = new WebSocket('ws://yes-p.herokuapp.com:8080');
+var HOST = location.origin.replace(/^http/, 'ws');
+const PORT = process.env.PORT || 3000;
+var connection = new WebSocket(HOST + ':' + PORT);
 var connectingSpan = document.getElementById("connecting");
 connection.onopen = function() {
     connectingSpan.style.display = "none";
