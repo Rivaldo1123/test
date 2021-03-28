@@ -2,7 +2,7 @@
 
 var http = require('http');
 var url = require('url');
-const PORT = process.env.PORT || 3000;
+
 // @link https://github.com/theturtle32/WebSocket-Node
 var WebsocketServer = require('websocket').server;
 
@@ -53,7 +53,7 @@ var server = http.createServer(function(request, response) {
         return;
     }
 });
-server.listen(PORT);
+server.listen(80);
 
 /* 
 	Handling websocket requests

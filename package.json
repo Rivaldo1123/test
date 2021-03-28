@@ -1,24 +1,13 @@
 {
     "name": "test",
     "version": "1.0.0",
-    "description": "Files of chat app with PHP and Node.JS tutorial at Hyvor Developer",
+    "description": "up",
     "main": "js-index.js",
     "dependencies": {
         "websockets": "^0.2.0"
     },
-    "devDependencies": {},
     "scripts": {
-        "start": "node node/server.js"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/SupunKavinda/Chat-App-With-PHP-and-Node.JS.git"
-    },
-    "keywords": [],
-    "author": "",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/SupunKavinda/Chat-App-With-PHP-and-Node.JS/issues"
-    },
-    "homepage": "https://github.com/SupunKavinda/Chat-App-With-PHP-and-Node.JS#readme"
+        "start": "node/server.js"
+    }
+
 }

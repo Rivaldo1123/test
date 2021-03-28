@@ -28,7 +28,7 @@ function sendMessage() {
 // web sockets
 window.WebSocket = window.WebSocket || window.MozWebSocket;
 var HOST = location.origin.replace(/^http/, 'ws');
-const PORT = process.env.PORT || 3000;
+const PORT = '3000';
 var connection = new WebSocket(HOST + ':' + PORT);
 var connectingSpan = document.getElementById("connecting");
 
